@@ -8,7 +8,7 @@
 
 
 
-<h2 align="center"> 🎨 Parte I - Design para iniciantes - Praticas </h2>
+<h2 align="center"> 🎨 Parte I - Introdução ao Design - Praticando clones </h2>
 
  🍃 Layout - Natureza
 <h1 align="center">  <img src="./.github/natureza.png" width="800px" alt="Home page"> </h1>
@@ -19,4 +19,7 @@
  👧 Layout - Perfil
 <h1 align="center">  <img src="./.github/perfil.png" width="800px" alt="Home page"> </h1>
 
-Feito com  💙 por 😊 [Joseane Guedes ](https://github.com/Joseane-Guedes) e 🐺 [Origamid](https://www.origamid.com/)  
+💰 Layout - Finanças
+<h1 align="center">  <img src="./.github/financas.png" width="800px" alt="Home page"> </h1>
+
+Feito com  💙 por 😊 [Joseane Guedes ](https://github.com/Joseane-Guedes) e 🐺 [®️Origamid](https://www.origamid.com/)  
