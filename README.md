@@ -1,7 +1,7 @@
 <h1 align="center">  <img src="./.github/walpaper.png" width="800px" alt="Home page"> </h1>
 
 
-<h1 align="center" color="pink" > 🐺 Origamid  <span style='color: #FF10F0'>.<span> </h1>
+<h1 align="center" color="pink" > 🐺 Origamid  <span style='color:#FF10F0'>.<span> </h1>
 
 <p>Repositorio criado para estudos Front-End: Web Design, UX/UI Design, HTML, CSS, JavaScript, React e Vue.  </p> 
 
@@ -27,6 +27,15 @@
 
 📜 Layout Espaço - Redesenho
 <h1 align="center">  <img src="./.github/espaco.png" width="800px" alt="Home page"> </h1>
+
+<h3 align="center"> 🎨 UI Design - Paleta de Cores - Prática </h3>
+
+<p> Para toda cor que decidirmos utilizar no projeto, ter variações será essencial para compor a interface.</p>
+
+🖌️ Layout Cores - Antes/Depois
+<h1 align="center">  <img src="./.github/cores_antes.png" width="800px" alt="Home page"> </h1>
+
+<h1 align="center">  <img src="./.github/cores_depois.png" width="800px" alt="Home page"> </h1>
 
 
 Feito com  💙 por 😊 [Joseane Guedes ](https://github.com/Joseane-Guedes) e 🐺 [®️Origamid](https://www.origamid.com/)  
