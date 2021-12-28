@@ -30,11 +30,13 @@
 
 <h3 align="center"> 🎨 UI Design - Paleta de Cores - Prática </h3>
 
-<p> Para toda cor que decidirmos utilizar no projeto, ter variações será essencial para compor a interface.</p>
+<p> Para toda cor que decidirmos utilizar no projeto, lembrar que variação será essencial para compor a interface. A variação da cor geralmente ocorre na diagonal da matriz HSB. </p>
 
-🖌️ Layout Cores - Antes/Depois
+🖌️ Layout Cores
+- Antes
 <h1 align="center">  <img src="./.github/cores_antes.png" width="800px" alt="Home page"> </h1>
 
+- Depois
 <h1 align="center">  <img src="./.github/cores_depois.png" width="800px" alt="Home page"> </h1>
 
 
