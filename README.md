@@ -39,5 +39,28 @@
 - Depois
 <h1 align="center">  <img src="./.github/cores_depois.png" width="800px" alt="Home page"> </h1>
 
+<h3 align="center"> 🎨 UI Design - Navegação Componentes - Prática Navegação </h3>
+
+<p> Geralmente a anatomia do menu Principal(Header) é composta por Marca, Menu e Busca mudando de acordo com a necessidade do site. Fundamental compreender a função de cada um e como realizar o design harmonioso.  </p>
+
+🧭 Layout Navegação - Prática
+
+✈️ Protótipo Caravan 
+- Antes
+<h1 align="center">  <img src="./.github/caravan.jpg" width="800px" alt="Home page"> </h1>
+
+- Depois
+<h1 align="center">  <img src="./.github/caravan_depois.png" width="800px" alt="Home page"> </h1>
+
+<br>
+👚Protótipo Handel 
+
+- Antes
+<h1 align="center">  <img src="./.github/handel.jpg" width="800px" alt="Home page"> </h1>
+
+- Depois
+<h1 align="center">  <img src="./.github/handel_depois.png" width="800px" alt="Home page"> </h1>
+
+
 
 Feito com  💙 por 😊 [Joseane Guedes ](https://github.com/Joseane-Guedes) e 🐺 [®️Origamid](https://www.origamid.com/)  
