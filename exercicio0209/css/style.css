@@ -1,0 +1,24 @@
+/*  // Mude a cor dos filmes que estreiam hoje para darkred. */
+ .hoje { 
+  color: darkred;
+}
+/* Mude a cor dos filmes que estreiam amanhã para darkblue. */
+.amanha {
+  color: darkblue;
+}
+/* Remova o sublinhado de todos os links do site. */
+a {
+  text-decoration: none;
+}
+/* Mude a cor dos links que estão dentro do título de nível 2 para seagreen. */
+h2 >  a {
+  color: seagreen;
+}
+
+p {
+  font-size:20px;
+}
+
+body {
+   font-family: Arial;
+}
