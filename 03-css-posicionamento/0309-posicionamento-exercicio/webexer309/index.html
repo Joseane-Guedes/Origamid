@@ -4,33 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
     <title>Bikcraft</title>
   </head>
-  <body>
-    <img src="img/bikcraft.svg" alt="Bikcraft" />
 
-    <div class="menu">
-      <a href="/">Sobre</a>
-      <a href="/">Produtos</a>
-      <a href="/">Lojas</a>
-      <a href="/">Contato</a>
-    </div>
-<!-- Anotações grid-template-columns: 
+  <body>
+    <header class="header"> 
+      <img src="img/bikcraft.svg" alt="Bikcraft" />
+
+      <nav aria-label="primária">
+        <ul class="menu">
+          <li><a href="/">Sobre</a></li>
+          <li><a href="/">Produtos</a></li>
+          <li><a href="/">Lojas</a></li>
+          <li><a href="/">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Anotações grid-template-columns: 
   Define o número total de colunas que serão criadas no grid.
 
-  Na estrutura abaixo é tenho 4 elementos dentro do conteudo: introducao, imagem, h2 e vantagens. Divisao no grid ficaria da seguinte forma: 
+  Na estrutura abaixo eu tenho 4 elementos dentro do conteudo: introducao, imagem, h2 e vantagens. Divisao no grid ficaria da seguinte forma: 
 -Primeiro elemento(introducao) => Primeira coluna, primeira linha;
 -Segundo elemento(img) => Segunda coluna, primeira linha;
 - Terceiro elemento(h2) => primeira coluna, segunda linha;
 Quarto elemento(vangatens) => segunda coluna e segunda linha;
-
-
+O atributo aria-labelledby é usado para indicar os IDs de elementos que são os rótulos para o objeto. ... O atributo aria-labelledby não é usado somente para elementos de formulário; é também usado para associar texto estático com widgets, grupos de elementos, painéis, regiões que tem um cabeçalho, definições e mais.
+    Linha 38: No lugar de detalhe em span, criou-se pseudo-elemento ::before
 -->
-    <div class="conteudo">
-      <div class="introducao">
-        <span class="detalhe"></span>
-        <h1>Bicicletas Feitas a Mão</h1>
+    <main>
+    <article  class="conteudo">
+      <div class="introducao" aria-labelledby="label-introducao">
+        <!-- <span class="detalhe"></span> -->
+        <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
         <p>
           A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
           vem equipada com os melhores acessórios da marca.
@@ -38,31 +44,34 @@ Quarto elemento(vangatens) => segunda coluna e segunda linha;
         <a href="/" class="botao">Ver Mais</a>
       </div>
 
-        <img src="img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta">
+      <img src="img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta" />
+    </article>
+    
+    <article  class="conteudo" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-vantagens">Vantagens Bikcraft</h2>
 
-      <h2 class="subtitulo">Vantagens Bikcraft</h2>
-
-      <div class="vantagens">
-        <div class="vantagens-item">
+      <ul class="vantagens">
+        <li class="vantagens-item">
           <img src="img/eletrica.svg" alt="eletrica" />
           <h3>Motor Elétrico</h3>
           <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-        </div>
-        <div class="vantagens-item">
+        </li>
+        <li class="vantagens-item">
           <img src="./img/velocidade.svg" alt="" />
           <h3>40 km/h</h3>
           <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-        </div>
-        <div class="vantagens-item">
+        </li>
+        <li class="vantagens-item">
           <img src="./img/rastreador.svg" alt="" />
           <h3>Rastreador</h3>
           <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="rodape">
+        </li>
+      </ul>
+    </article>
+    </main>
+
+    <footer class="rodape">
       <p>Bikcraft. Alguns Direitos Reservados.</p>
-    </div>
+    </footer>
   </body>
 </html>
