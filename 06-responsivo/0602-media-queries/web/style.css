@@ -1,0 +1,66 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+ h1 {
+  grid-column: 1 / -1;
+}
+
+/* Responsividade somente aplicada abaixo de 600px
+Obs. A ordem importa totalmente na hora de codar a parte da responsividade. Colocar sempre depois do codigo pronto.
+max-width sempre vai indicar menor, no caso abaixo, menor que 600px.
+
+*/
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    background: blue;
+    color: white;
+  }
+  img{
+    display: none;
+  }
+} 
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 250%;
+  }
+}
+/* Acima de 700px e abaixo de 900px aplique lightskyblue  */
+@media (min-width: 700px) and (max-width: 900px) {
+  p {
+    background: lightskyblue;
+  }
+}
+
+
+/*
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    background: lightpink;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+
+ */
